@@ -7,9 +7,9 @@ struct ContentView: View {
            
             ZStack {
                 Path { path in
-                    path.move(to: CGPoint(x: 75, y: 300))     // Top center
-                    path.addLine(to: CGPoint(x: 0, y: 150)) // Bottom left
-                    path.addLine(to: CGPoint(x: 150, y: 150)) // Bottom right
+                    path.move(to: CGPoint(x: 75, y: 300))  
+                    path.addLine(to: CGPoint(x: 0, y: 150))
+                    path.addLine(to: CGPoint(x: 150, y: 150))
                     path.closeSubpath()
                 }
                 Circle()
@@ -29,6 +29,7 @@ struct ContentView: View {
                 Circle()
                     .foregroundStyle(.brown)
                     .frame(width: 50, height: 50)
+                Circle()
                 
             }
         }
