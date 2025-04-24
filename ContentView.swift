@@ -6,7 +6,7 @@ struct ContentView: View {
         VStack {
            
             ZStack {
-                Path { path in
+                Path { pat
                     path.move(to: CGPoint(x: 75, y: 300))     // Top center
                     path.addLine(to: CGPoint(x: 0, y: 150)) // Bottom left
                     path.addLine(to: CGPoint(x: 150, y: 150)) // Bottom right
